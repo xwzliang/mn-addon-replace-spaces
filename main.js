@@ -92,7 +92,7 @@ JSB.newAddon = function (mainPath) {
             );
 
             timerCount++;
-            if (timerCount >= 60) {
+            if (timerCount >= 2) {
               timer.invalidate();
             }
           });
